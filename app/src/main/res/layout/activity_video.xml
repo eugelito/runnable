@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.runnable.VideoActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="470dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0.60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563"
+        tools:layout_editor_absoluteX="0dp"></VideoView>
+
+    <Button
+        android:id="@+id/loginBtn"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#5584a8"
+        android:text="@string/loginBtn"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        tools:style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_weight="0.26" />
+
+
+    <Button
+        android:id="@+id/registerBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:text="@string/registerBtn"
+        android:textAlignment="center"
+        android:textColor="#5584a8"
+        android:layout_marginBottom="0dp"
+        tools:style="@style/Widget.AppCompat.Button.Borderless" />
+
+
+</LinearLayout>

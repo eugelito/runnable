@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.runnable.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="178dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1.14"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <ImageView
+                android:id="@+id/app_location"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingTop="14dp"
+                android:src="@mipmap/ic_my_location_white_48dp" />
+
+            <ImageView
+                android:id="@+id/app_music"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingTop="14dp"
+                android:src="@mipmap/ic_music_note_white_48dp" />
+
+            <ImageView
+                android:id="@+id/app_camera"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingTop="14dp"
+                android:src="@mipmap/ic_photo_camera_white_48dp" />
+
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>

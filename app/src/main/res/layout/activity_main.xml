@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.runnable.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!--<Button
+            android:id="@+id/imageButton"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="75dp"
+            android:text="Camera"
+            app:srcCompat="@android:drawable/ic_menu_camera" />-->
+        <!-- <ImageView
+             android:id="@+id/ivImage"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_launcher" />-->
+
+        <TextView
+            android:id="@+id/durationLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:drawableLeft="@mipmap/ic_access_time_black_24dp"
+            android:drawablePadding="3dp"
+            android:paddingLeft="15dp"
+            android:text="@string/Duration"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/durationValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="15dp"
+            android:text="@string/durationValue"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/wallet_dim_foreground_holo_dark"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/distanceLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_landscape_black_24dp"
+            android:drawablePadding="3dp"
+            android:paddingLeft="15dp"
+            android:text="@string/Distance"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/distanceValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="15dp"
+            android:text="@string/miles"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/wallet_dim_foreground_holo_dark"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/stepsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_directions_walk_black_24dp"
+            android:drawablePadding="3dp"
+            android:paddingLeft="15dp"
+            android:text="@string/Steps"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/stepsValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="15dp"
+            android:text="@string/stepsValue"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/wallet_dim_foreground_holo_dark"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/speedLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_send_black_24dp"
+            android:drawablePadding="3dp"
+            android:paddingLeft="15dp"
+            android:text="@string/Speed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/speedValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="15dp"
+            android:text="@string/speedValue"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/wallet_dim_foreground_holo_dark"
+            android:paddingTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <!--  <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:map="http://schemas.android.com/apk/res-auto"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:id="@+id/map"
+                  android:name="com.google.android.gms.maps.SupportMapFragment"
+                  android:layout_width="match_parent"
+                  android:layout_height="230dp"
+
+
+                  android:layout_weight="8.91"
+                  tools:context="com.example.runnable.MapsActivity" />-->
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/button_start"
+                android:drawable="@color/button_start"
+                android:text="@string/startBtn"
+                android:textAlignment="center"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/endBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:drawable="@color/button_start"
+                android:text="@string/endBtn"
+                android:textAlignment="center"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="24sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>

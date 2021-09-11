@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    tools:context="com.example.runnable.LoginActivity">
+
+    <ImageView
+        android:id="@+id/runnableImage"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:src="@drawable/runnable" />
+
+    <TextView
+        android:id="@+id/runnableLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/runnableLabel"
+        android:textAlignment="center"
+        android:textColor="#5584a8"
+        android:textSize="30sp"
+        tools:textColor="#5584a8" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/login_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:hint="@string/usernameHint"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:hint="@string/passwordHint"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="#5584a8"
+            android:text="@string/loginBtn"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorLink="@android:color/white"
+            tools:style="@style/Widget.AppCompat.Button.Borderless" />
+
+
+        <Button
+            android:id="@+id/registerBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/white"
+            android:text="@string/registerBtn"
+            android:textAlignment="center"
+            android:textColor="#5584a8"
+            tools:style="@style/Widget.AppCompat.Button.Borderless" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

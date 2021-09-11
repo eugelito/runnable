@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    android:paddingLeft="20px"
+    tools:context="com.example.runnable.AccountFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/userplaceholder"
+        tools:paddingBottom="50dp" />
+
+
+    <TextView
+        android:id="@+id/editTextUsernameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/usernameAccount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/wallet_dim_foreground_holo_dark" />
+
+    <TextView
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/wallet_dim_foreground_holo_dark"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/editTextEmailLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/emailAccount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/wallet_dim_foreground_holo_dark"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/wallet_dim_foreground_holo_dark"
+        android:paddingTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/editTextFirstNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/firstNameAccount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/wallet_dim_foreground_holo_dark"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/wallet_dim_foreground_holo_dark"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/editTextLastNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/lastNameAccount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/wallet_dim_foreground_holo_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/wallet_dim_foreground_holo_dark"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

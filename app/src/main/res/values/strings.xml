@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Runnable</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- activity_image_list_view.xml -->
+    <string name="listViewLabel">Runners Pictures</string>
+
+    <!--activity_login.xml-->
+    <string name="runnableLabel">Runnable</string>
+    <string name="loginBtn">LOG IN</string>
+    <string name="registerBtn">REGISTER</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+
+    <!-- activity_main.xml -->
+    <string name="startBtn">START</string>
+    <string name="endBtn">END</string>
+    <string name="Duration">Duration</string>
+    <string name="Distance">Distance</string>
+    <string name="Steps">Steps</string>
+    <string name="Speed">Speed</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="speedValue">0 mph</string>
+    <string name="miles">0 miles</string>
+    <string name="durationValue">00:00:00</string>
+    <string name="stepsValue">0</string>
+
+    <!-- activity_parse_json.xml -->
+    <string name="activityLabel">All Running Activity</string>
+    <string name="runID">Run ID</string>
+    <string name="previousRun">Previous Run</string>
+    <string name="nextRun">Next Run</string>
+    <string name="back">Back</string>
+
+
+    <!-- RegisterActivity.xml -->
+    <string name="registerLabel">Register</string>
+    <string name="firstNameHint">First Name</string>
+    <string name="lastNameHint">Last Name</string>
+    <string name="emailHint">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cancelBtn">CANCEL</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- fragment_account.xml -->
+    <string name="usernameAccount">Username: </string>
+    <string name="emailAccount">Email: </string>
+    <string name="firstNameAccount">First Name: </string>
+    <string name="lastNameAccount">Last Name: </string>
+
+
+    <!-- fragment_activity.xml -->
+    <string name="button_getActivity">button_get</string>
+    <string name="viewActivity">View Previous Runs</string>
+
+    <!-- fragment_camera.xml -->
+    <string name="descriptionCamera">Enter Description</string>
+    <string name="timeInfoCamera">Enter Date</string>
+    <string name="locationInfoCamera">Enter Location</string>
+    <string name="buttonUploadCamera">Upload Image</string>
+    <string name="imageButtonCamera">Launch Camera</string>
+    <string name="launchCamera">Launch Camera</string>
+
+    <!-- fragment_gallery -->
+    <string name="buttonChooseGallery">Choose Image</string>
+    <string name="editNameGallery">Enter Description</string>
+    <string name="timeInfoGallery">Enter Date</string>
+    <string name="locationInfoGallery">Enter Location</string>
+    <string name="buttonUploadGallery">Upload Image</string>
+
+
+    <!-- MapCalFragment -->
+    <string name="setStart">Set Start</string>
+    <string name="setEnd">Set End</string>
+    <string name="getDistance">Get Distance</string>
+
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">1360433537356257</string>
+    <string name="fb_login_protocol_scheme">fb1360433537356257</string>
+
+</resources>

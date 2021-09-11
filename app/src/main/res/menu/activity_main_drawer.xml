@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item android:id="@+id/nav_account"
+        android:icon="@mipmap/ic_person_black_24dp"
+        android:title="My Account"/>
+
+    <item android:id="@+id/nav_directions"
+        android:icon="@mipmap/ic_arrow_forward_black_24dp"
+        android:title="Route Planner"/>
+
+    <item android:id="@+id/nav_activity"
+        android:icon="@mipmap/ic_directions_run_black_24dp"
+        android:title="Activity"/>
+
+    <item android:id="@+id/nav_gallery"
+        android:icon="@mipmap/ic_collections_black_24dp"
+        android:title="Gallery"/>
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@mipmap/ic_exit_to_app_black_24dp"
+        android:title="Log Out"/>
+
+</menu>
